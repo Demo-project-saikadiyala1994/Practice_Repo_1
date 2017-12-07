@@ -18,9 +18,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                echo 'last name is ${Lastname}' 
-                echo 'Do you have Jenkins knowledge? ${Jenkins Knowledge}'
-                echo 'AWS region is ${region}'
+                echo "last name is '${Lastname}'" 
+                echo "Do you have Jenkins knowledge? '${Jenkins Knowledge}'"
+                echo "AWS region is '${region}'"
             }
         }
         stage('Test'){
